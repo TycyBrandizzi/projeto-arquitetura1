@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter',"Raleway";
+}
+
+header{
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 130px 20px 150px 60px;
+
+    
+    
+}
+
+section{
+  
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: rgba(249, 249, 249, 1);
+    
+
+}
+
+main{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+#texto-principal{
+   padding-top: 210px;
+}
+
+footer{
+    background-color: rgba(48, 48, 48, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 60px;
+   
+}
+
+#texto-rodape{
+   margin-bottom: 20px;
+}
+
+input{
+    width: 353px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px ;
+    padding-left: 10px;
+}
+
+button{
+    background-color: rgba(192, 114, 18, 1);
+    height: 40px;
+    width: 150px;
+    color: rgba(255, 255, 255, 1);
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgba(192, 114, 18, 1);
+    color: rgba(255, 255, 255, 1);
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #c09b6e;
+    transition-duration: 0.5s;
+}
